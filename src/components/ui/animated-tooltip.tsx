@@ -39,6 +39,7 @@ export const AnimatedTooltip = ({
 
   return (
     <>
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
       {items.map((item, idx) => (
         <div
           className="-mr-4  relative group"

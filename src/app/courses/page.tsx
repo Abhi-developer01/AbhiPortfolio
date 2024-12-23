@@ -6,16 +6,16 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import courseData from '@/data/music_courses.json'
 
-interface Course{
-  id: number,
-  title: string,
-  slug: string,
-  description: string,
-  price: number,
-  instructor: string,
-  isFeatured: boolean,
+// interface Course{
+//   id: number,
+//   title: string,
+//   slug: string,
+//   description: string,
+//   price: number,
+//   instructor: string,
+//   isFeatured: boolean,
       
-}
+// }
 
 function page() {
   return (

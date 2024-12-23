@@ -85,6 +85,7 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         {items.map((item, idx) => (
           <li
             className="w-[350px]  h-auto lg:h-[300px]  text-2xl max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 pt-12 py-6 md:w-[450px]"

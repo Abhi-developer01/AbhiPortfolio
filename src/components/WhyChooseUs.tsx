@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Image from "next/image";
 
 const musicSchoolContent = [

@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
